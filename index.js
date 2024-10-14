@@ -29,7 +29,7 @@ const startColorChange = function () {
     }
     function startColor() {
         document.body.style.backgroundColor = randomColor();
-         getColor.innerHTML=randomColor();
+        getColor.innerHTML=randomColor()
     }
 }
 const stopColorChange = function () {
