@@ -7,6 +7,7 @@ const randomColor = function () {
     return color;
 }
 
+const getColor=document.getElementById("showColor")
 randomColor()
 
 let Interval
@@ -28,6 +29,7 @@ const startColorChange = function () {
     }
     function startColor() {
         document.body.style.backgroundColor = randomColor();
+         getColor.innerHTML=randomColor();
     }
 }
 const stopColorChange = function () {
